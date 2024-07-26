@@ -1,0 +1,2 @@
+const e=document.querySelectorAll(".dropdown"),t=document.querySelectorAll(".dropdown__trigger"),l=document.querySelectorAll(".in-process");for(let l=0;l<t.length;l++)t[l].addEventListener("click",()=>{e[l].classList.toggle("dropdown--active")});for(let e=0;e<l.length;e++)l[e].addEventListener("click",()=>{alert("The feature is still under development")});
+//# sourceMappingURL=index.41e1d080.js.map
